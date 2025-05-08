@@ -173,10 +173,41 @@ Discord kan sende mange notifikationer. Her er hvordan du styrer dem:
                 header: 'Procesportfolio indhold',
                 title: '## Procesportfolio indhold',
                 text: `
-Information om procesportfolioen for 1. semester. 
-Husk at tjekke semesterplanen og Itslearning for detaljerede krav og deadlines.
+Dit procesportfolio er et **vigtigt værktøj** til at dokumentere din proces, din udvikling og dine refleksioner gennem dit studie. Det er en del af eksamen på **alle 3 semestre**. Formålet er at vise **vejen til målet**, resultatet er sekundært i procesdokumentationen.
 
-*Det er helt normalt at være lidt usikker på kravene i starten - det er nyt for alle! Læs materialet grundigt igennem, og noter dine spørgsmål. Ofte finder du svar, når du dykker ned i det. Spørg derefter dine undervisere eller medstuderende.*
+Vi anbefaler kraftigt, at du bruger det **løbende** og ikke venter til sidst!
+
+**Format og Tekniske Krav:**
+- Skal laves i **WordPress**.
+- Skal installeres som et **subdomæne** kaldet "**proces**" under dit primære domæne (f.eks. \`proces.ditdomaene.nu\`).
+
+**Nødvendige Menupunkter:**
+- **1.semester:** Vis proces fra 1. semester.
+- **2.semester:** Vis proces fra 2. semester (senere).
+- **3.semester:** Vis proces fra 3. semester (senere).
+- **Studiemakker:** Reflekter over møder/feedback fra din studiegruppe.
+- **Om mig:** Billede og tekst om dig selv/grund til MMD.
+
+**Krav til Hvert Enkelt Indlæg**
+*Hvert indlæg skal som minimum indeholde:*
+- En **titel**.
+- En **procesbeskrivelse** (teorier/metoder/værktøjer).
+- **Billeder**, der viser processen.
+- **Reflektioner** over:
+    - Hvad du har lært.
+    - Din proces (nemt/svært?).
+    - Hvordan viden er tilegnet.
+    - Næste trin.
+    - **OBS: Reflektioner SKAL være dybdegående, ikke kun et par linjer!**
+
+**Dette SKAL der skrives om i procesportfolio på 1. sem**
+*Vis proces fra:*
+- Alle **projekter** (Intro, P1, P2, P3).
+- Alle **workshops** (Tone of Voice, Prototyping, InDesign, MovingArt, Animation).
+- **Individuelle opgaver**.
+Suppler gerne med noter/fritidsprojekter.
+
+**Husk:** Link til procesportfolio skal stå på forsiden af dit Afleveringsdokument!
 
 -# Har du brug for flere råd?
 `,
@@ -245,7 +276,52 @@ Eksamensnervøsitet er meget almindeligt. Her er et par råd til at håndtere de
             {
                 header: 'Projekt 3',
                 title: '## Projekt 3',
-                text: 'Her mangler indhold *Det er okay at føle sig overvældet i starten af et nyt projekt. Bryd opgaverne ned i mindre dele, og husk at sparre med din studiegruppe og undervisere, NÅR du har tjekket materialerne først.*',
+                text: `
+Dette er din individuelle, mundtlige 1. semesters eksamen, baseret på din **Procesportfolio**, **Præsentationsportfolio** og **Plakat**.
+
+**Vigtige datoer:**
+- Aflevering: 28/05/2025 kl. 13.00 (WISEFLOW)
+- Ordinær Eksamen: 10/06/2025 & 13/06/2025
+- Silent Feedback: 05/05/2025
+
+**Afleveringsliste (ALT skal med for at bestå!):**
+- PDF Afleveringsdokument (InDesign, m/ refleksion max 3600 anslag)
+- Link til Procesportfolio (på Afleveringsdok)
+- Link til Præsentationsportfolio (på Afleveringsdok)
+- Link til GitHub repo (på Afleveringsdok)
+- ZIP fil med Præsentationsportfolio (Kode + indhold, WiseFlow)
+- PDF Plakat (WiseFlow)
+- Marketingvideo fra P1 (WiseFlow)
+
+**!!! VIGTIGT !!!**
+ALLE afleveringer SKAL med, og ALLE links på afleveringsdokumentet SKAL virke for at bestå! En enkelt fejl her dumper dig. Du må IKKE ændre efter deadline.
+
+**Præsentationsportfolio (Krav):**
+- Kodes fra bunden i HTML/CSS (JS ok, **ingen frameworks/libraries!**).
+- Skal **validere** (W3C), være **responsiv**, bruge **BEM** & **CRAP**. Min. 6 projekter, brand/skills, kontaktinfo.
+
+**Plakat (Krav):**
+- PDF (InDesign/Illustrator).
+- Vis **PROCES, TEORI** & **BEGRUNDELSE** for Præsentationsportfolio vha. **Design Thinking**. Skal **PRINTES** (A0-A3) til eksamen.
+- **AI MÅ IKKE BRUGES TIL INDHOLD PÅ PLAKATEN!**
+
+**Brug af Generativ AI:**
+- Tilladt som **værktøj** (ikke plakatindhold).
+- **SKAL DOKUMENTERES** som bilag WiseFlow: Prompts + hvordan brugt. Nummerer prompts.
+
+**Studiegruppe:**
+- Selvom individuelt, SKAL I danne en studiegruppe til sparring/forberedelse.
+
+**Eksamen (30 min):**
+- 10 min Præsentation (Proces via plakat, forbedringer Præsentationsportfolio).
+- 10 min Eksamination (Spørgsmål til afleveringer + **HELE SEMESTERETS PENSUM/teori!**).
+- 10 min Votering.
+
+**Gode råd:**
+- Brug Design Thinking. Øv præsentation. Vær klar til pensum-spørgsmål. **Tjek alle links igen og igen!** Dokumenter AI-brug korrekt.
+
+-# Har du brug for flere råd?
+`,
             },
             {
                 header: 'Akademisk Rapport & Metode',
@@ -276,9 +352,138 @@ At skrive en god akademisk rapport kræver øvelse. Her er nogle fokuspunkter:
         description: 'Bliv inspireret af diverse relevante multimediedesign anbefalinger.',
         content: [
             {
-                header: 'Figma auto layout',
-                title: '## Figma auto layout',
-                text: 'Vil du gerne blive en haj til at arbejde effektivt i Figma? Så er auto layout lige noget for dig! \n',
+                header: 'Figma: auto layout',
+                title: '## Figma: auto layout',
+                text: `
+Vil du bygge brugerflader i Figma, der nemt tilpasser sig ændringer? Så er **Auto Layout** din bedste ven!
+
+**Hvad er det?** En feature i Figma, der lader dig skabe dynamiske beholdere (frames) med indhold, der automatisk justerer placering og afstand baseret på indholdets størrelse eller containerens størrelse. Perfekt til lister, knapper, menuer og responsive sektioner.
+
+**Hvorfor bruge det?** Gør design hurtigere, sikrer konsistens i afstande, og gør det lettere at lave design, der skal fungere på forskellige skærmstørrelser.
+
+**Kom i gang:**
+1. Vælg de elementer du vil samle (f.eks. en knap med tekst og ikon).
+2. Tryk **Shift + A**. En Auto Layout frame er skabt!
+3. Leg med indstillingerne i sidepanelet: Retning (horisontal/vertikal), afstand, padding, justering, "hug content", "fixed/fill".
+
+**Lær mere:** Søg efter "**Figma Auto Layout tutorial for beginners**" på YouTube. Figmas officielle dokumentation er også en god ressource. Prøv at genskabe simple komponenter som knapper eller kort med Auto Layout.
+
+**Tip:** Hvis du får godt styr på auto-layout og opbygger mock-ups med det kan du gøre brug af Figma's 'Dev Tool' som fortæller dig den CSS som skal til for at lave de forskellige elementer - det er vildt smart til når man skal kode sin mock-up. 
+
+-# Har du brug for flere råd?
+`,
+            },
+            {
+                header: 'Intro til Motion Graphics i After Effects',
+                title: '## Intro til Motion Graphics i After Effects',
+                text: `
+Vil du pifte din Projekt 1 video op eller lære at lave fede animationer til web/sociale medier? **Adobe After Effects** (tilgængelig via UCL) er standarden for motion graphics og visuelle effekter!
+
+**Hvad er det?** Et program til at skabe animationer, effekter og composite video. Brugt i film, TV, reklamer, web.
+
+**Hvorfor lære basics?** Gør din P1 video mere dynamisk (animeret tekst, grafik). Lær at lave simple logo-animationer, introer eller overgange. Værdifuld skill!
+
+**Kom i gang:**
+1. Åbn After Effects, opret projekt/komposition ("lærred").
+2. Importer filer, de ligger som "layers" i tidslinjen.
+3. Lær at arbejde med **keyframes**. En keyframe gemmer en egenskabs værdi (position, skala, rotation, opacity) på et tidspunkt.
+4. Sæt keyframes ved to tidspunkter - AE animerer overgangen.
+5. Øv simple animationer: bevægelse (Position), størrelse (Scale), drejning (Rotation), gennemsigtighed (Opacity).
+
+**Lær mere:** Adobes egne hjemmeside har mange tutorials. Søg på "**After Effects motion graphics tutorial for beginners**" eller "**simple text animation After Effects tutorial**" på YouTube. Start småt.
+
+-# Har du brug for flere råd?
+`,
+            },
+            {
+                header: 'Illustrator Pen Tool',
+                title: '## Illustrator Pen Tool',
+                text: `
+Vil du tegne egne ikoner, logoer eller illustrationer med præcision? **Pen Tool (P)** i Illustrator er grundlaget for at skabe skalerbar vektorgrafik!
+
+**Hvad er det?** Værktøjet til at tegne vektorkurver (paths) punkt for punkt. Resultatet er skarpe linjer og former, der kan skaleres i det uendelige uden kvalitetstab.
+
+**Hvorfor bruge det?** Essentiel for logodesign, illustration, tracing af skitser/billeder, og opbygning af komplekse former, du ikke kan lave med standardværktøjer. Kræver øvelse, men er uundværligt!
+
+**Kom i gang:**
+1.  Vælg Pen Tool (P).
+2.  Klik for at sætte lige punkter (ankerpunkter).
+3.  Klik og TRÆK for at sætte kurvede punkter (du ser "håndtag"). Træk i håndtagene for at justere kurven.
+4.  Luk en form ved at klikke på det første punkt igen.
+5.  Hold **Alt/Option** nede for at knække et håndtag og lave et skarpt hjørne efter en kurve. Hold **Ctrl/Cmd** nede for midlertidigt at skifte til Direct Selection Tool (A) og flytte punkter/håndtag.
+
+**Lær mere:** Adobes egne tutorials er gode. Søg på "**Illustrator Pen Tool tutorial for beginners**" eller "**Master Pen Tool Illustrator**" på YouTube. Der findes også online "Pen Tool games" der hjælper dig med at øve. Øv dig i at tegne simple former.
+
+-# Har du brug for flere råd?
+`,
+            },
+            {
+                header: 'InDesign Styles',
+                title: '## InDesign Styles',
+                text: `
+Skal du lave en rapport, plakat med meget tekst, eller andet layout med ensartet typografi? Stop med at formatere hver overskrift/brødtekst manuelt! Brug **Paragraph Styles** (Afgr. typografi) og **Character Styles** (Tegn typografi) i InDesign!
+
+**Hvad er det?** Gemte sæt af formateringsindstillinger (skrifttype, størrelse, farve, afstand, justering etc.) som du kan anvende på tekst. Paragraph Styles gælder for hele afsnit (paragraphs), Character Styles gælder for specifikke ord/sætninger i et afsnit (f.eks. fed skrift, kursiv).
+
+**Hvorfor bruge det?** Sikrer 100% ensartethed i din typografi, sparer enormt meget tid (anvend med ét klik), og gør det super nemt at opdatere formatering i hele dokumentet ved kun at ændre ét style. Essentiel for effektive layouts!
+
+**Kom i gang:**
+1.  Åbn panelerne: Vælg menuen **Window > Styles > Paragraph Styles** og **Character Styles**.
+2.  Klik på "Opret ny typografi" (eller højreklik/menu) i panelet. Dobbeltklik for at redigere indstillingerne.
+3.  Definer din typografi (f.eks. "H1", "Brødtekst", "Fremhæv").
+4.  Anvend en Paragraph Style ved at placere markøren i afsnittet og klikke på stylen i panelet. Anvend en Character Style ved at markere ord/sætning og klikke på stylen.
+5.  Skal du ændre noget? Dobbeltklik på stylen i panelet, lav ændringen, og ALLE steder den style er brugt, opdateres automatisk!
+
+**Lær mere:** Adobes egne tutorials. Søg på "**InDesign Paragraph Styles tutorial**" eller "**InDesign Character Styles tutorial**" på YouTube. Øv dig ved at opsætte styles til en simpel rapport eller folder.
+
+-# Har du brug for flere råd?
+`,
+            },
+            {
+                header: 'Photoshop Layer Masks',
+                title: '## Photoshop Layer Masks',
+                text: `
+Skal du kombinere billeder, fritlægge motiver uden at ødelægge originalen, eller kun justere dele af et billede? Lær at bruge **Layer Masks** (Lagmasker) i Photoshop!
+
+**Hvad er det?** En "maske" du tilføjer til et lag. Den bestemmer, hvilke dele af laget der er synlige, og hvilke der er skjult. **Sort skjuler**, **hvid viser**, og gråtoner giver delvis gennemsigtighed. Det geniale er, at det er **ikke-destruktivt** - informationen i laget slettes ikke, den er bare skjult af masken.
+
+**Hvorfor bruge det?** Uundværligt for fotomanipulation, compositing (sammensætning af billeder), præcise justeringer (f.eks. lysstyrke/kontrast kun på et område), og fritlægning af motiver, hvor du nemt kan rette masken bagefter. Giver fleksibilitet!
+
+**Kom i gang:**
+1.  Vælg det lag, du vil maskere.
+2.  Klik på "Add Layer Mask" ikonet (et rektangel med en cirkel indeni) nederst i Layers-panelet. En hvid maske-thumbnail dukker op ved siden af lagets preview. Hele laget er nu synligt.
+3.  Sørg for masken (den hvide/sorte thumbnail) er valgt i Layers-panelet (den har en ramme omkring sig).
+4.  Vælg Brush Tool (B). Vælg farven **sort** og mal på billedet der hvor du vil skjule lagets indhold. Vælg farven **hvid** og mal der hvor du vil have indholdet til at være synligt igen. Brug gråtoner for gennemsigtighed.
+5.  Skift mellem sort og hvid (genvej X) for nemt at skjule/vise.
+
+**Lær mere:** Adobes egne tutorials er fantastiske. Søg på "**Photoshop Layer Mask tutorial for beginners**" eller "**Non-destructive editing Photoshop**" på YouTube. Prøv at lægge to billeder sammen vha. masker.
+
+-# Har du brug for flere råd?
+`,
+            },
+            {
+                header: 'CSS Variables (:root)',
+                title: '## CSS Variables (:root)',
+                text: `
+Vil du gøre din CSS mere organiseret, nemmere at opdatere og undgå at gentage værdier (som farvekoder eller skriftstørrelser) overalt? Lær at bruge **CSS Variables** (også kaldet Custom Properties) sammen med \`:root\`!
+
+**Hvad er det?** CSS Variables lader dig definere dine egne egenskaber (variabler) i CSS, som du kan genbruge i hele dit stylesheet. \`:root\` er en pseudo-klasse, der repræsenterer dokumentets øverste element (\`<html>\`), og er det mest almindelige sted at definere globale CSS variables.
+
+**Hvorfor bruge det?**
+1.  **Centralisering:** Saml f.eks. alle dine brandfarver ét sted.
+2.  **Nem opdatering:** Skal du skifte en farve? Ændr kun værdien ét sted i \`:root\`, og det opdateres overalt, hvor variablen bruges.
+3.  **Konsistens:** Sikrer at du bruger de samme værdier konsekvent.
+4.  **Mindre gentagelse:** Gør din CSS "Tør" (DRY - Don't Repeat Yourself).
+
+**Kom i gang:**
+1.  I starten af din CSS-fil, tilføj en \`:root { ... }\` blok.
+2.  Definer dine variabler indeni med et dobbelt-bindestreg prefix: \`--navn-på-variabel: værdi;\` (f.eks. \`--brand-blue: #2196F3;\`). Giv variablerne sigende navne!
+3.  Brug variablen andre steder i din CSS med funktionen \`var()\`: \`selector { property: var(--navn-på-variabel); }\` (f.eks. \`background-color: var(--brand-blue);\`).
+
+**Lær mere:** MDN Web Docs har en fantastisk guide til CSS Custom Properties. Søg på "**CSS-Tricks CSS Variables**" eller "**CSS variables tutorial for beginners**" på YouTube. Begynd med at definere dine primære farver og skriftstørrelser som variabler.
+
+-# Har du brug for flere råd?
+`,
             },
         ]
     },
@@ -450,7 +655,43 @@ Mangler du flere informationer om parkering på Seebladsgade kan du gå på [mit
 
 
 // {
-//     header: 'Procesportfolio indhold',
-//     title: '## Procesportfolio indhold',
-//     text: 'Her mangler indhold',
+//     header: 'Titel',
+//     title: '## Titel',
+//     text: `
+
+// -# Har du brug for flere råd?
+// `,
 // },
+
+/**
+ * 
+**Nødvendige Menupunkter**
+* **1. semester:** Vis din proces fra 1. semester her.
+* **2. semester:** Vis din proces fra 2. semester her (indhold kommer på senere semestre).
+* **3. semester:** Vis din proces fra 3. semester her (indhold kommer på senere semestre).
+* **Studiemakker:** Reflekter over møder, hjælp og feedback fra din studiegruppe/studiemakkere.
+* **Om mig:** Minimum et billede af dig og en kort tekst om hvem du er, og hvorfor du læser MMD.
+
+**Krav til Hvert Enkelt Blogindlæg/Indlæg**
+*Hvert indlæg i din procesportfolio skal som minimum indeholde:*
+* En titel
+* En procesbeskrivelse af, hvordan du har arbejdet med teorier, metoder og værktøjer.
+* Billeder, der viser processen og hjælper læseren med at forstå.
+* Refleksioner over: 
+  - Hvad du har lært.
+  - Din proces - hvad var nemt/svært?
+  - Hvordan har du tilegnet dig viden til at løse opgaven?
+  - Hvad er næste trin?
+  - **OBS:** Refleksionsdelen er **VIRKELIG VIGTIG**. To linjer er **ikke** nok. Gå i dybden med dine tanker og læringsprocesser.
+
+**Dette SKAL der skrives om i procesportfolio på 1.sem**
+*Dit procesportfolio skal som minimum vise processen fra:*
+* Alle de projekter, du har arbejdet på i semesteret (IntroProjekt, Projekt 1, Projekt 2, Projekt 3).
+* Alle workshops (Tone of Voice, Prototyping, InDesign, MovingArt, Animation).
+* Individuelle opgaver, du skulle aflevere.
+* (Du må gerne supplere med noter, fritidsprojekter eller andet MMD-relevant indhold, der viser din proces.)
+
+**Husk:** Linket til din procesportfolio skal stå på forsiden af dit Afleveringsdokument til Projekt 3!
+
+-# Har du brug for flere råd?
+ */
